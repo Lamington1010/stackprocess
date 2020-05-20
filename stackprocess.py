@@ -108,7 +108,7 @@ for q in range(1,18):
         rectarea = int(h)*int(w)
         circarea = 3.14*radius*radius
         
-        #calculate minrectarea
+        #calculate min rectangle area
         w1 = (((box[2,0]-box[1,0])**2)+((box[2,1]-box[1,1])**2))**0.5
         l1 = (((box[0,0]-box[1,0])**2)+((box[0,1]-box[1,1])**2))**0.5
         d1 = (((box[0,0]-box[2,0])**2)+((box[0,1]-box[2,1])**2))**0.5
