@@ -161,7 +161,7 @@ numpy.savetxt('contvminrec',contvminrec, delimiter = ',')
 #numpy.savetxt('contvrec',contvrec, delimiter = ',')
 numpy.savetxt('contvcirc',contvcirc, delimiter = ',')
 
-plt.plot(contvcirc, label = 'Contour/Circle')
+#plt.plot(contvcirc, label = 'Contour/Circle')
 #plt.plot(contvrec, label = 'Contour/Rectangle')
 plt.plot(contvminrec, label = 'Contour/MinRectangle')
 plt.legend()
