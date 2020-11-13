@@ -28,7 +28,6 @@ areaminrec = []
 areacont = []
 concavem = []
 convexm = []
-imagematrix = []
 thresholdmatrix = []
 centerx = []
 centery = []
@@ -57,8 +56,6 @@ for q in range(1,18):
     
     #maks countours for just th3
     _,contours, _ = cv2.findContours(th3, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
-    
-    thresholdmatrix.append(th3)
     
     for cnt in contours:
         approx = cv2.approxPolyDP(cnt, 0.01*cv2.arcLength(cnt, True), True)
